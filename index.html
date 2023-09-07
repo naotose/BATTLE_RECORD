@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>BATTLE RECORD</title>
+    </head>
+    <body>
+        <h1>BATTLE RECORD</h1>
+        <div class="container">
+            <!--試合数-->
+            <P>TOTAL</P>
+            <p class="total" id="total">0</p>
+            
+            <!--勝利数-->
+            <p>WIN</p>
+            <input type="number" placeholder="0" id="win">
+            
+            <!--敗北数-->
+            <p>LOSE</p>
+            <input type="number" placeholder="0" id="lose">
+            
+            <!--勝率-->
+            <p>W/L</p>
+            <p class="answer" id="rate">0%</p>
+            
+            <!--倒した数-->
+            <p>KILL</p>
+            <input type="number" placeholder="0" id="killCount">
+            
+            <!--倒された数-->
+            <p>DEATH</p>
+            <input type="number" placeholder="0" id="deathCount">
+            
+            <!--キルデス比-->
+            <p>K/D</p>
+            <p class="answer" id="killRate">0%</p>
+            
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>
